@@ -1,5 +1,5 @@
 -- 1.film tablosunda bulunan rental_rate sütunundaki değerlerin ortalaması nedir?
-SELECT ROUND(AVG(rental_rate),3) FROM film; -- ROUND(*,3) : Virgülden sonra üç basmak al.
+SELECT ROUND(AVG(rental_rate),3) FROM film; -- ROUND(*,3) : Virgülden sonra üç basamak al.
 -- 2.film tablosunda bulunan filmlerden kaçtanesi 'C' karekteri ile başlar?
 SELECT COUNT(*) FROM film
 WHERE title LIKE 'C%';
